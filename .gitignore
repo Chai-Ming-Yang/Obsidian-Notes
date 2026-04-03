@@ -1,0 +1,6 @@
+# Ignore the ENTIRE .obsidian folder in every subfolder
+**/.obsidian/
+
+# System junk
+.DS_Store
+Thumbs.db
