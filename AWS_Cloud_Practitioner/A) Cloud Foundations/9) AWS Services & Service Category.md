@@ -1,0 +1,8 @@
+- Cost Management
+- Compute
+- Containers
+- Database
+- Management & Governance
+- Networking & Content Delivery
+- Security, Identity & Compliance
+- Storage
