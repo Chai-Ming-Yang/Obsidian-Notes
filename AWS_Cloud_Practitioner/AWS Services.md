@@ -10,10 +10,11 @@ Slower access
 - **S3 Bucket** - Instant public access (GDrive)
 - **S3 Glacier** - Slow access (backup) (infrequent Access)
 #### EBS (Elastic Block Store)
-- private access file
+- private access file (OS / DB) low latency
+- single AZ  &  limited scaling
 #### EFS (Elastic File System)
 - Linux Only (X window)
-- shared file
+- shared file system (multiple instances)
 
 # Compute
 #### EC2 (Elastic Computing Cloud)
