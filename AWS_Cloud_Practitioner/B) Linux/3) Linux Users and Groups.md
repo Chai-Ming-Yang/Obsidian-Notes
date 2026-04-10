@@ -11,4 +11,8 @@ hash code means root user, no warnings for commands
 - trackable which non-admin called sudo
 
 
+| Root User | Standard User |
+| --------- | ------------- |
+|           |               |
+
 manage group of similar permission users together.

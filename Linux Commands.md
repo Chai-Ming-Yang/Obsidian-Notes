@@ -26,36 +26,37 @@
 
 
 # SUDO Commands
-| **sudo**     | SuperUserDO (root user)<br>normal user doing administrative permission tasks                                                                                                                          |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **su**       | Promote to root user                                                                                                                                                                                  |
-| **useradd**  | Add user of username<br>`-c` (comment about user)<br>`-e` (expiry date of user)<br>`-d` (set home directory of user)                                                                                  |
-| **usermod**  | Modify existing user<br>`-l` (rename user)<br>`-aG` (append user to new group & keeping in old)<br>*"adding user to group is modify user, not group"*<br>`-L` (lock account)<br>`-U` (unlock account) |
-| **userdel**  | Delete user<br>`-r` (also delete user's home directory)                                                                                                                                               |
-| **passwd**   | Set password of user                                                                                                                                                                                  |
-|              |                                                                                                                                                                                                       |
-| **groupadd** | Create new Group<br>                                                                                                                                                                                  |
-| **groupmod** | Modify existing group<br>                                                                                                                                                                             |
-| **groupdel** | Delete Group<br>                                                                                                                                                                                      |
-| **sudoers**  |                                                                                                                                                                                                       |
-| **cut**      | filter<br>`-d`*c* [delimiter] separates by 'c'<br>`-f`*n,m,...* [field nth] show fields                                                                                                               |
-|              |                                                                                                                                                                                                       |
-|              |                                                                                                                                                                                                       |
-|              |                                                                                                                                                                                                       |
-|              |                                                                                                                                                                                                       |
+| **`sudo`**      | SuperUserDO (root user)<br>normal user doing administrative permission tasks                                                                                                                                                                                                |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`su`**        | Promote to root user                                                                                                                                                                                                                                                        |
+| **`useradd`**   | Add user of username<br>`-c` (comment about user)<br>`-e` (expiry date of user)<br>`-d` (set home directory of user)                                                                                                                                                        |
+| **`usermod`**   | Modify existing user<br>`-l` (rename user)<br>`-aG` (append user to new group & keeping in old)<br>*"adding user to group is modify user, not group"*<br>`-L` (lock account)<br>`-U` (unlock account)                                                                       |
+| **`userdel`**   | Delete user<br>`-r` (also delete user's home directory)                                                                                                                                                                                                                     |
+| **`passwd`**    | Set password of user                                                                                                                                                                                                                                                        |
+|                 |                                                                                                                                                                                                                                                                             |
+| **`groupadd`**  | Create new Group<br>                                                                                                                                                                                                                                                        |
+| **`groupmod`**  | Modify existing group<br>                                                                                                                                                                                                                                                   |
+| **`groupdel`**  | Delete Group<br>                                                                                                                                                                                                                                                            |
+| **`gpassword`** | Administer "/etc/group" file<br>`-a` `--add`                      (add user to group)<br>`-d` `--delete`                (remover user from group)<br>`-M` `--members`              (show member list of group)<br>`-A` `--administrators` (set administrator list of group) |
+| **`sudoers`**   |                                                                                                                                                                                                                                                                             |
+| **`cut`**       | filter<br>`-d`*c* [delimiter] separates by 'c'<br>`-f`*n,m,...* [field nth] show fields                                                                                                                                                                                     |
+|                 |                                                                                                                                                                                                                                                                             |
+|                 |                                                                                                                                                                                                                                                                             |
+|                 |                                                                                                                                                                                                                                                                             |
+|                 |                                                                                                                                                                                                                                                                             |
 
 # Modifier / Options
-|     |                               |
-| --- | ----------------------------- |
-| -i  | perform case-sensitive search |
-| -s  | shortened version             |
-| -p  | pretty (human readable)       |
-| -H  | table column headers          |
-| -a  | all                           |
-| -l  | long format                   |
-| -m  | append                        |
-| -d  | delimiter                     |
-|     |                               |
+|      |                               |
+| ---- | ----------------------------- |
+| **`-i`** | perform case-sensitive search |
+| **`-s`** | shortened version             |
+| **`-p`** | pretty (human readable)       |
+| **`-H`** | table column headers          |
+| **`-a`** | all                           |
+| **`-l`** | long format                   |
+| **`-m`** | append                        |
+| **`-d`** | delimiter                     |
+|      |                               |
 
 
 # Operation Symbols
