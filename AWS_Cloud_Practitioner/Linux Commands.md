@@ -16,7 +16,7 @@
 | **`clear`**   | Clear terminal                                                               |
 | **`pwd`**     | Print Working Directory                                                      |
 | **`history`** | History of commands<br>"/home/username/.bash_history"                        |
-|               |                                                                              |
+| **`ps`**      | Process Status<br>`-e` everything<br>`-f` full format<br>`-l` long format    |
 
 ## Navigation / Dir & Files
 
@@ -33,8 +33,9 @@
 | **`cp`**    | Copy<br>`-a` archive (preserve metadata)<br>`-f` force<br>`-i` interactive (confirmation)<br>`-n` no overwrite existing<br>`-l` **link** files<br>`-L` *follow* symbolic link<br>`-r` recursive<br>`-u` update<br>`-v` verbose     |
 | **`mv`**    | Move / Rename<br>`-i` interactive (confirmation)<br>`-f` force<br>`-n` no overwrite existing<br>`-v` verbose                                                                                                                       |
 | **`rm`**    | Remove<br>`-d` directory (empty dir)<br>`-r` Recursive<br>`-f` Force (no confirm msg)<br>`-i` interactive<br>`-v` visual (print files deleted)                                                                                     |
-| `mkdir`     | Make dir<br>`-m` Set permission to dir *`-m 400`*<br>`-p` create parent dir                                                                                                                                                        |
+| **`mkdir`** | Make dir<br>`-m` Set permission to dir *`-m 400`*<br>`-p` create parent dir                                                                                                                                                        |
 
+# Files
 
 |                              |                                                                                                                                                                                                                                           |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,6 +48,20 @@
 | **`tar`**                    | **Combine** *without compression*<br>`-x` extract *tarball* content<br>`-z` compress content with **gzip**<br>`-f` specify name of tarball<br>`-v` verbose                                                                                |
 | **`gzip`**                   | compress & decompress files *include tarballs*<br>`-d` decompress                                                                                                                                                                         |
 | **`zip`**<br><br>**`unzip`** | compress file<br>`-r` recursive<br>extract                                                                                                                                                                                                |
+
+# Services
+
+|        |                                             |
+| ------ | ------------------------------------------- |
+| lscpu  | list CPU info                               |
+| lshw   | list hardware                               |
+| du     | disk used <br>check file & dir size         |
+| df     | disk free<br>display disk size & free space |
+| fdisk  | list & modify partition on hard drive       |
+| vmstat | indicate use of virtual memory              |
+| free   | indicate use of physical memory             |
+| top    | taskmgr *(dynamic)*                         |
+| uptime | duration since boot & num users             |
 
 # SUDO Commands
 | **`sudo`**      | SuperUserDO (root user)<br>normal user doing administrative permission tasks                                                                                                                                                                                                |
@@ -85,17 +100,25 @@
 
 # Metacharacters
 
-|                                 |                                                            |
-| ------------------------------- | ---------------------------------------------------------- |
-| **`*`**                         | wildcard *(multi-char)*                                    |
-| **`?`**                         | wildcard *(single-char)*                                   |
-| `[` charactes `]`               | matching chars                                             |
-| **``` `cmd` ```** or **`$cmd`** | command substitution                                       |
-| **`;`**                         | chain commands tgt                                         |
-| **`~`**                         | represent home dir                                         |
-| **`-`**                         | represent previous work dir                                |
-| `\|`                            | pipe symbol<br>redirect output of previous command to next |
-|                                 |                                                            |
+|                                 |                                                         |
+| ------------------------------- | ------------------------------------------------------- |
+| **`*`**                         | wildcard *(multi-char)*                                 |
+| **`?`**                         | wildcard *(single-char)*                                |
+| `[` charactes `]`               | matching chars<br>`[az]`   a or z<br>`[a-z]` a to z<br> |
+| **``` `cmd` ```** or **`$cmd`** | command substitution                                    |
+| **`;`**                         | chain commands tgt                                      |
+| **`~`**                         | represent home dir                                      |
+| **`-`**                         | represent previous work dir                             |
+
+# Redirection
+|     |                                         |
+| --- | --------------------------------------- |
+| >   | output to file                          |
+| <   | receive input from file                 |
+| \|  | redirect output (left) to input (right) |
+| >>  | append output to file                   |
+| 2>  | redirect error to file                  |
+| 2>> | append error to file                    |
 
 
 # FHS (File System Hierarchy) Standard

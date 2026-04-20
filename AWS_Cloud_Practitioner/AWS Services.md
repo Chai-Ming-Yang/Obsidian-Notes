@@ -4,6 +4,11 @@ https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-overview/aws-overview.pd
 ![[aws_services.png]]
 ![[aws_services2.png]]
 ![[aws_services3.png]]
+
+
+SNS *(Simple Notification Service)*
+- email
+
 # Storage
 #### S3 (Simple Storage Service)
 Slower access
