@@ -2,21 +2,26 @@
 /etc/group
 ## Terminal
 
-|               |                                                                              |
-| ------------- | ---------------------------------------------------------------------------- |
-| `whoami`      | Print current user name                                                      |
-| `id`          | User & Group info                                                            |
-| `hostname`    | Current system's host / domain / node name                                   |
-| `date`        | datetime                                                                     |
-| `cal`         | Calendar `-j` (Julian calendar)<br>`-s` (Sunday=1st)       `-m` (Monday=1st) |
-| **`uptime`**  | Time since last boot (even in sleep / hibernation)                           |
-| **`echo`**    | Print                                                                        |
-| **`man`**     | manual                                                                       |
-| **`!!`**      | rerun last command                                                           |
-| **`clear`**   | Clear terminal                                                               |
-| **`pwd`**     | Print Working Directory                                                      |
-| **`history`** | History of commands<br>"/home/username/.bash_history"                        |
-| **`ps`**      | Process Status<br>`-e` everything<br>`-f` full format<br>`-l` long format    |
+|               |                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `whoami`      | Print current user name                                                                                                                           |
+| `id`          | User & Group info                                                                                                                                 |
+| `hostname`    | Current system's host / domain / node name                                                                                                        |
+| `date`        | datetime                                                                                                                                          |
+| `cal`         | Calendar `-j` (Julian calendar)<br>`-s` (Sunday=1st)       `-m` (Monday=1st)                                                                      |
+| **`uptime`**  | Time since last boot (even in sleep / hibernation)                                                                                                |
+| **`echo`**    | Print                                                                                                                                             |
+| **`man`**     | manual                                                                                                                                            |
+| **`!!`**      | rerun last command                                                                                                                                |
+| **`clear`**   | Clear terminal                                                                                                                                    |
+| **`pwd`**     | Print Working Directory                                                                                                                           |
+| **`history`** | History of commands<br>"/home/username/.bash_history"                                                                                             |
+| **`ps`**      | Process Status            *snapshot / static*<br>`-e` everything<br>`-a` all user<br>`-f` full format<br>`-l` long format<br>`-u` usage *cpu/ram* |
+| **`pidof`**   | Process id of<br>`-s` single process<br>`-c` processes in common root dir<br>`-S` separator                                                       |
+| **`pstree`**  | parent {child} processes<br>`-c` compact tree                                                                                                     |
+| **`kill`**    | `-9 ` *SIGKILL*      force stop<br>`-15` *SIGTERM*    graceful stop<br>`-19` *SIGSTOP*    pause process                                           |
+| **`nice`**    | launch process at given priority<br>`-n 20` highest priority      `-n 19` lowest priority                                                         |
+| **`renice`**  | adjust priority                                                                                                                                   |
 
 ## Navigation / Dir & Files
 
@@ -51,18 +56,22 @@
 
 # Services
 
-|        |                                             |
-| ------ | ------------------------------------------- |
-| lscpu  | list CPU info                               |
-| lshw   | list hardware                               |
-| du     | disk used <br>check file & dir size         |
-| df     | disk free<br>display disk size & free space |
-| fdisk  | list & modify partition on hard drive       |
-| vmstat | indicate use of virtual memory              |
-| free   | indicate use of physical memory             |
-| top    | taskmgr *(dynamic)*                         |
-| uptime | duration since boot & num users             |
-
+|               |                                                        |
+| ------------- | ------------------------------------------------------ |
+| `lscpu`       | list CPU info                                          |
+| `lshw`        | list hardware                                          |
+| `du`          | disk used <br>check file & dir size                    |
+| `df`          | disk free<br>display disk size & free space            |
+| `fdisk`       | list & modify partition on hard drive                  |
+| `vmstat`      | indicate use of virtual memory                         |
+| `free`        | indicate use of physical memory                        |
+| `top`         | taskmgr *(dynamic)*<br>running  sleep  stopped  zombie |
+| `uptime`      | duration since boot & num users                        |
+| **`jobs`**    | <br>`bg` <br>`fg`                                      |
+| **`at`**      | Schedule Task Once<br>                                 |
+| **`cron`**    | Schedule Repeated Task *Chronox*<br>                   |
+| **`crontab`** | Cron Table<br>`MIN HR  DoM MON DoW cmd`                |
+	
 # SUDO Commands
 | **`sudo`**      | SuperUserDO (root user)<br>normal user doing administrative permission tasks                                                                                                                                                                                                |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

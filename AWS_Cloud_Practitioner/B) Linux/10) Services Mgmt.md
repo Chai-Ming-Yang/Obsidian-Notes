@@ -1,3 +1,15 @@
+|                                           |     |
+| ----------------------------------------- | --- |
+| **`systemctl`**                           |     |
+| **`systemctl list-units --type=service`** |     |
+| **`systemctl list-units --state=active`** |     |
+
+# Amazon Cloudwatch
+- TaskMgr of AWS resources & applications
+
+
+
+
 automation 
 
 **`cron`** *(Chronos)* 

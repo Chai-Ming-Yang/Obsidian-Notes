@@ -12,7 +12,8 @@ Program -- series of instructions *(for computer)*
 - each process assigned PID *Process ID*
 
 **Process == Running Program**
-Life Cycle : 'Start' --> (Ready/Running/Waiting) --> 'Stopped'
+#### Process Life Cycle:
+'Start' --> (Ready/Running/Waiting) --> 'Stopped'
 - "waiting" : for event
 - "ready"    : to be assigned processor time
 

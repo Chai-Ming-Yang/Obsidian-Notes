@@ -9,6 +9,26 @@ Benefit: Automation remove human error
 	- if  `.sh`  not in $PATH
 
 
+|       |                                                                                                                   |                                                                                                                          |
+| ----- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `env` | Environmental Variables<br><br>`XDG_VTNR`<br><br>`XDG_SESSIONS_ID`<br><br>`HOSTNAME`<br><br>`SHELL`<br><br>`TERM` | <br><br>Virtual Terminal no.<br><br>Session ID<br><br>Name of Computer<br><br>Shell Path<br><br>Define Terminal Handling |
+
+## Initialization Process *Bash env*
+1. User logs in
+2. Default system shell start
+3. **RUN**  `/etc/profile`
+4. User provide login shell
+5. **RUN**  `home/user/.bashrc` 
+6. User start another interactive shell
+7. **RUN** `/home/user/.bashrc`
+
+|               |                                                           |
+| ------------- | --------------------------------------------------------- |
+| **`alias`**   | `alias tarzip='tar -czvf'`<br>`alias tarunzip='tar -xvf'` |
+| **`unalias`** |                                                           |
+
+
+
 **Automation Examples**
 - Backup
 - Move old files (only newest visible)
