@@ -10,14 +10,15 @@
 | 1. Physical     | Ethernet Cables                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Bits     |
 
 
-|                  |                                                                  |
-| ---------------- | ---------------------------------------------------------------- |
-| **`ping`**       | test connnectivity<br><br>                                       |
-| **`hping3`**     | ping with *min/avg/max* latency<br><br>                          |
-| **`nslookup`**   | name server lookup <br>*show IP of domain name*<br><br>          |
-| **`traceroute`** | check network path taken<br>num hops  //  timeouts (`*`)<br><br> |
-| **`telnet`**     | check port status *(open/close)*<br><br>                         |
-| **`mtr`**        | dynamic dashboard *(network performance)*<br><br>                |
+|                  |                                                                   |
+| ---------------- | ----------------------------------------------------------------- |
+| **`ping`**       | test connnectivity<br><br>                                        |
+| **`hping3`**     | ping with *min/avg/max* latency<br><br>                           |
+| **`nslookup`**   | name server lookup <br>*show IP of domain name*<br><br>           |
+| **`traceroute`** | check network path taken<br>num hops  //  timeouts (`*`)<br><br>  |
+| **`nmap`**       | network map (port scanning tool)<br>- Return OS & Version<br><br> |
+| **`telnet`**     | check port status *(open/close)*<br><br>                          |
+| **`mtr`**        | dynamic dashboard *(network performance)*<br><br>                 |
 
 
 
